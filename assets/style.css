@@ -2655,21 +2655,22 @@ nav .info-header .btn {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    padding: 1em;
     position: relative;
-    margin-left: -15px;
-    margin-right: -15px;
     font-size: 0;
     text-align: left;
 }
 
 .portfolio-list li {
+    border: solid 1px #00c0ff;
+    border-radius: 2px 2px 0 0;
     flex: 1 1 0%;
     align-self: stretch;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0;
+    margin: 1em;
     font-size: 17px;
 }
 
@@ -2683,10 +2684,8 @@ nav .info-header .btn {
 }
 
 .portfolio-list li .game {
-    border: solid 1px #00c0ff;
     flex-grow: 2;
-    border-radius: 2px 2px 0 0;
-    padding:10px 0;
+    padding: 10px 0 0 0;
 }
 
 .portfolio-list li .description {
@@ -2696,7 +2695,7 @@ nav .info-header .btn {
 
 .portfolio-list li .btn {
     display: block;
-    margin-top: 0;
+    margin: 1em;
 }
 
 .portfolio-list li a:not(.btn) {

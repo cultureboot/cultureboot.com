@@ -2835,6 +2835,30 @@ nav .info-header .btn {
     }
 }
 
+/*----------------------------------------------------------------------------------------
+                        BOOKS STYLES
+----------------------------------------------------------------------------------------*/
+
+.books {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+    font-size: 0;
+    text-align: left;
+}
+
+.books li {
+    flex: 1 1 0%;
+    padding: 0;
+    margin: 1em;
+    font-size: 17px;
+}
+
+.books li img {
+    width: 100%;
+    height: auto;
+}
 
 /*----------------------------------------------------------------------------------------
                         QUOTE BLOCK STYLES

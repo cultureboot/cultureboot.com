@@ -2990,7 +2990,7 @@ nav .info-header .btn {
 
 .pricing-table h4 {
     display: block;
-    padding: 40px 0;
+    padding: 40px 0 20px 0;
     margin: 0;
     font-weight: bolder;
 }
@@ -2999,7 +2999,7 @@ nav .info-header .btn {
     display: block;
     font-weight: bold;
     font-size: 50px;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .pricing-table span.clean {
@@ -3014,7 +3014,7 @@ nav .info-header .btn {
 
 .benefits-list {
     display: inline-block;
-    margin: 50px 35px;
+    margin: 20px 35px;
     text-align: left;
 }
 
@@ -3026,6 +3026,11 @@ nav .info-header .btn {
 
 .benefits-list li {
     padding: 6px 0;
+}
+
+.benefits-list li:before {
+    font-family: 'iconfont';
+    content: "\e0e2  ";
 }
 
 .benefits-list li del {

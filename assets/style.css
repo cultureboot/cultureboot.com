@@ -2855,6 +2855,18 @@ nav .info-header .btn {
     font-size: 17px;
 }
 
+@media (max-width: 500px) {
+    .books {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .books li {
+        flex: 1;
+    }
+    .books li img {
+        width: 130px!important;
+    }
+}
 .books li img {
     width: 100%;
     height: auto;
